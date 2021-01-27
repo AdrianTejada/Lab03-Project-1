@@ -172,28 +172,6 @@ img {
     padding: 0;
 }
 
-.article__img--big {
-    grid-column: span 4;
-    margin: 0;
-}
-
-.article__img--small {
-    margin: 0;
-}
-
-figure {
-    margin: 0;
-}
-
-figcaption {
-    padding: 0.5rem;
-    background: #ebe636;
-}
-
-figcaption p {
-    margin: 0;
-    font-size: 0.8rem;
-}
 
 /* ==========================================================================
    3. MODULES

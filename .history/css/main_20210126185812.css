@@ -7,10 +7,7 @@
         1.3 Core Styling
     2. LAYOUT
         2.1 Core Layout
-        2.2 Medium Screens and Up
-        2.2.1 Article
-        2.3 Large screens and up
-        2.4 Core Article
+        2.1 Medium Screens and Up
     3. MODULES
     4. STATES
     5. UTILITIES
@@ -155,45 +152,15 @@ img {
     .page__footer {
         grid-template-columns: 1fr 2fr;
     }
-    
-    /*2.2.1 Article*/
 
     .article__figure {
         margin: 0;
     }
 }
 
-/* 2.3 Large screens and up*/
+/* Large screens and up*/
 
-/* 2.4 Core Article*/
-.article__figures {
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 0;
-}
 
-.article__img--big {
-    grid-column: span 4;
-    margin: 0;
-}
-
-.article__img--small {
-    margin: 0;
-}
-
-figure {
-    margin: 0;
-}
-
-figcaption {
-    padding: 0.5rem;
-    background: #ebe636;
-}
-
-figcaption p {
-    margin: 0;
-    font-size: 0.8rem;
-}
 
 /* ==========================================================================
    3. MODULES
