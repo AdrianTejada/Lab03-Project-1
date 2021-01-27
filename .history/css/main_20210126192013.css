@@ -10,7 +10,7 @@
         2.2 Medium Screens and Up
         2.2.1 Article
         2.3 Large screens and up
-        2.3.1 Article
+        2.3.1 article
         2.4 Core Article
     3. MODULES
     4. STATES
@@ -193,13 +193,6 @@ img {
         width: 50%;
         float: left;
         margin: 0 1rem 0 0;
-    }
-
-    .article__excerpt {
-        column-count: 2;
-        column-rule: 1px solid #ccc;
-        column-gap: 2rem;
-        text-align: justify;
     }
 }
 
