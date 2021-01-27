@@ -238,34 +238,6 @@ figcaption p {
    3. MODULES
    ========================================================================== */
 
-   .widget>* {
-       padding: 0;
-       margin: 0;
-   }
-
-
-   
-   .widget ul {
-       list-style: none;
-   }
-
-   .widget__list__item {
-       display: grid;
-       grid-template-columns: repeat(4, 1fr);
-   }
-
-   .widget__item__content {
-       order: 2;
-       grid-column: span 3;
-       padding-right: 0;
-   }
-
-   .thumbnail--small {
-       order: 1;
-       grid-column: span 1;
-       margin: 1.5rem 0.5rem 0 0;
-   }
-
 
 
 /* ==========================================================================

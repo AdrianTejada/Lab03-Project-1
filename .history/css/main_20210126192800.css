@@ -243,8 +243,6 @@ figcaption p {
        margin: 0;
    }
 
-
-   
    .widget ul {
        list-style: none;
    }
@@ -265,7 +263,6 @@ figcaption p {
        grid-column: span 1;
        margin: 1.5rem 0.5rem 0 0;
    }
-
 
 
 /* ==========================================================================
