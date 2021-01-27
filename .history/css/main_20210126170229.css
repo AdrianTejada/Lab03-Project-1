@@ -136,22 +136,6 @@ img {
         "mn mn mn sd sd sd"
         "ft ft ft ft ft ft";
     }
-
-    .page__header,
-    .featured {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1rem;
-    }
-
-    .page__section__heading {
-        text-align: center;
-        grid-column: span 3;
-    }
-
-
-    .page__footer {
-        grid-template-columns: 1fr 2fr;
-    }
 }
 
 /* ==========================================================================

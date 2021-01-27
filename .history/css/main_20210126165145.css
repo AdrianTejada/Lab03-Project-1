@@ -116,42 +116,6 @@ img {
     html {
         margin: 0 2rem;
     }
-
-    .page,
-    .page__header,
-    .featured,
-    .page__footer {
-        display: grid;
-    }
-
-    .page {
-        min-width: 40rem;
-        max-width: 60rem;
-        grid-column-gap: 1.5rem;
-        grid-row-gap: 0;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-areas: 
-        "hd hd hd hd hd hd"
-        "fr fr fr fr fr fr"
-        "mn mn mn sd sd sd"
-        "ft ft ft ft ft ft";
-    }
-
-    .page__header,
-    .featured {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1rem;
-    }
-
-    .page__section__heading {
-        text-align: center;
-        grid-column: span 3;
-    }
-
-
-    .page__footer {
-        grid-template-columns: 1fr 2fr;
-    }
 }
 
 /* ==========================================================================
