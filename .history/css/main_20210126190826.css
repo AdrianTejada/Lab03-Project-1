@@ -164,31 +164,6 @@ img {
 }
 
 /* 2.3 Large screens and up*/
-@media screen and (min-width: 64rem) {
-    .page {
-        min-width: 60rem;
-        max-width: 84rem;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-areas:
-        "hd hd hd hd hd hd hd hd hd hd hd hd"
-        "fr fr fr fr fr fr fr fr fr fr fr fr"
-        "mn mn mn mn mn mn mn mn sd sd sd sd"
-        "ft ft ft ft ft ft ft ft ft ft ft ft"
-    }
-
-    .page__footer {
-        grid-template-columns: 1fr 1fr 1fr 2fr;
-    }
-
-    .page__section__heading {
-        font-size: 3rem;
-    }
-
-    .featured {
-        grid-gap: 1.5rem;
-    }
-}
-
 
 /* 2.4 Core Article*/
 .article__figures {

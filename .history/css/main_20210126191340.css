@@ -179,14 +179,6 @@ img {
     .page__footer {
         grid-template-columns: 1fr 1fr 1fr 2fr;
     }
-
-    .page__section__heading {
-        font-size: 3rem;
-    }
-
-    .featured {
-        grid-gap: 1.5rem;
-    }
 }
 
 
